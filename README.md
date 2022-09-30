@@ -36,18 +36,18 @@ Considering all steps will show that Vout is following the expected value as in 
 ![Symbol](https://github.com/wreasin/CMOS-AND-Gate-Design-using-Cadence-Virtuoso/blob/main/images/Symbol.PNG?raw=true)
 ![Symbol_Scametic](https://github.com/wreasin/CMOS-AND-Gate-Design-using-Cadence-Virtuoso/blob/main/images/Symbol_scametic.PNG?raw=true)
 
-#### DC, AC, Transient and Noise Response :
+#### DC, AC, Transient :
 _Here I am doing four types of Analysis - DC, AC, Transient and Noise_.  
-In DC and Transient Analysis i have measured Va, Vb & Vout as Voltage, and Current (I) in Vout & VDD node. In AC Analysis i have measured Va, Vb & Vout as Voltage Frequency and Current (I) Frequency in Vout & VDD node. For Noise Analysis i have measured input & output noise. For DC and Transient Analysis the plots of _Va_ , _Vb_ and _Vout_ shows the _voltages_, on the otherhand _VDD(I4)_ & _Vout(I4)_ shows the _current (I)_. For AC Analysis the plots of _Va_ , _Vb_ and _Vout_ shows the _voltage frequency_, on the otherhand _VDD(I4)_ & _Vout(I4)_ shows the _current (I) frequency_. In Noise Response the plots shows the input and output noise.
+In DC and Transient Analysis i have measured Va, Vb & Vout as Voltage, and Current (I) in Vout & VDD node. In AC Analysis i have measured Va, Vb & Vout as Voltage Frequency and Current (I) Frequency in Vout & VDD node. For DC and Transient Analysis the plots of _Va_ , _Vb_ and _Vout_ shows the _voltages_, on the otherhand _VDD(I4)_ & _Vout(I4)_ shows the _current (I)_. For AC Analysis the plots of _Va_ , _Vb_ and _Vout_ shows the _voltage frequency_, on the otherhand _VDD(I4)_ & _Vout(I4)_ shows the _current (I) frequency_. 
 ![output](https://github.com/wreasin/CMOS-AND-Gate-Design-using-Cadence-Virtuoso/blob/main/images/Output.PNG?raw=true)  
 ![output2](https://github.com/wreasin/CMOS-AND-Gate-Design-using-Cadence-Virtuoso/blob/main/images/Output_2.PNG?raw=true)  
-![noise_output](https://github.com/wreasin/CMOS-AND-Gate-Design-using-Cadence-Virtuoso/blob/main/images/Noise%20Analysis(IN,OUT).PNG?raw=true)  
+ 
 
-
-#### Noise Figure :  
-For measuring of Noise Figure i had to use PORTS instead of Vpulse.  
+#### Noise Figure and Noise Response :  
+For measuring of Noise Figure and Noise Response i had to use PORTS instead of Vpulse. For Noise Analysis i have measured input & output noise. In Noise Response the plots shows the input and output noise.  
 ![noise_figure_scametic](https://github.com/wreasin/CMOS-AND-Gate-Design-using-Cadence-Virtuoso/blob/main/images/noise%20analysis_scametic.PNG?raw=true)
 ![noise_figure](https://github.com/wreasin/CMOS-AND-Gate-Design-using-Cadence-Virtuoso/blob/main/images/Noise%20Figure.PNG?raw=true)
+![noise_output](https://github.com/wreasin/CMOS-AND-Gate-Design-using-Cadence-Virtuoso/blob/main/images/Noise%20Analysis(IN,OUT).PNG?raw=true)
 
 #### Layout :
 In Layout i have use  Metal1 and Poly Layer. I have use here X & Y snap spacing is 0.01m and also the minimum width of metal utilized for routing is 0.12.  
