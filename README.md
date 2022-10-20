@@ -14,8 +14,8 @@ The AND gate is a basic digital logic gate that implements logical conjunction (
 ### The Project details of mine :
 Here i have use __gpdk90n__ :-
 1. Three pmos1v and Three nmos1v.
-2. For vdd i have use vdc (1.8v)
-3. For input i have use two vpulse (1.8v)
+2. For vdd i have use vdc (1v)
+3. For input i have use two vpulse (1v)
 4. Here I am doing four types of Analysis :  
     i ) Transient Response  
     ii ) DC Response  
